@@ -83,9 +83,13 @@ Special techniques for Ledger's limited RAM:
 ## 🔐 Security Considerations
 
 - **Nonce Security**: Hardware RNG with proper per-signature uniqueness
-- **Side-Channel Resistance**: Constant-time operations in sensitive paths
 - **Memory Safety**: Bounds checking on all buffer operations
 - **Key Isolation**: Private key shares never exported from secure element
+
+Remaining work (why you shouldn't use this in prod)
+
+- **Side-Channel Resistance**: Constant-time operations in sensitive paths
+- **BIP32 compliant derivation**: for now a custom derivation per Nano is used.
 
 ## 🧪 Testing
 ```bash
