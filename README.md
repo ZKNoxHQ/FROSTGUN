@@ -131,6 +131,7 @@ Aggregated signature can be verified with group public key using standard EdDSA 
 ## 👥 Team
 
 **ZKNOX** - Hardware security and Post-quantum cryptography for Ethereum systems
+
 **RAILGUN** - An enhanced  Zcash over Ethereum, benefiting from greater DA and programmability.
 
 ## 📄 License
