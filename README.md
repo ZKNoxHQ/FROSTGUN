@@ -88,7 +88,7 @@ Special techniques for Ledger's limited RAM:
 
 Remaining work (why you shouldn't use this in prod)
 
-- **Side-Channel Resistance**: Constant-time operations in sensitive paths
+- **Side-Channel Resistance**: Constant-time operations in sensitive paths is lacking
 - **BIP32 compliant derivation**: for now a custom derivation per Nano is used.
 
 ## 🧪 Testing
