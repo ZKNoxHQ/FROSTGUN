@@ -36,7 +36,7 @@ Manages the orchestration and non-sensitive computations:
 ## 📦 Components
 
 ### Hardware Implementation (`/ledger`)
-- **Language**: C with ARM assembly optimizations
+- **Language**: C with ARM assembly optimizations, compiled to the provided ELF
 - **Target**: Ledger Nano S/S Plus/X
 - **Key Features**:
   - Memory-efficient elliptic curve operations
