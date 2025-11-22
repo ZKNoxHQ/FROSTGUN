@@ -1,4 +1,4 @@
-# FROST Ledger Implementation - Baby Jubjub EdDSA
+# FROST Hardware Implementation - Baby Jubjub EdDSA
 
 A hardware-secured implementation of FROST (Flexible Round-Optimized Schnorr Threshold) signatures on Ledger devices using Baby Jubjub curve with EdDSA Poseidon signatures.
 
@@ -48,8 +48,8 @@ Manages the orchestration and non-sensitive computations:
 - **Framework**: TypeScript with ES modules
 - **Dependencies**: 
   - `@ledgerhq/hw-transport` for device communication
-  - `circomlibjs` for reference cryptographic operations
-  - `@noble/curves` for elliptic curve utilities
+  - `circomlibjs` and 'zkkit' for reference cryptographic operations
+
 
 ## 🚀 Quick Start
 
@@ -72,18 +72,13 @@ make load $BOLOS_SDK # Loads app to connected Ledger device
 
 ## 🔬 Implementation Details
 
-### Challenge Computation
-The challenge uses Poseidon hash over Baby Jubjub:
-```
-challenge = Poseidon(group_commitment.x, group_commitment.y, 
-                     group_pubkey.x, group_pubkey.y, message)
-```
 
 ### Memory Optimization
 Special techniques for Ledger's limited RAM:
 - Partial curve structure destruction during Poseidon operations
 - Montgomery domain arithmetic to avoid conversions
 - Streamed APDU responses for large data transfers
+- On the flow computations of Poseidon tables
 
 
 
