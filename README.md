@@ -62,10 +62,8 @@ pip install ledgerblue
 npm install
 ```
 
-### Build Ledger App
-```bash
-make load $BOLOS_SDK # Loads app to connected Ledger device
-```
+### Sideload Ledger App
+
 
 ### Run JavaScript Example
 
