@@ -1,0 +1,7 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@ledgerhq/hw-transport-node-hid": "^6.29.14",
+    "hid": "^1.0.1"
+  }
+}

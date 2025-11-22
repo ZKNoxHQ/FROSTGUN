@@ -1,0 +1,32 @@
+gpg decrypt -----BEGIN PGP MESSAGE-----
+
+hQEMA/jr3s26ljHKAQf6A5nXjQpgorqNEj/R2M3zP49hXR787s799hvFAvkzrCNK
+q19yhNp3t97ObCI6sWF6X9gb5RAI/Dxjzcp2Q4WKgXRKiR0IKWVRIsagx1wpVR/Q
+82T9IhPMxD5FZfM2TjwTgP+FEEXfEX0dzD2ogKWpYjmOZICukQmm3TdyWowyK9eR
+3hdKfOlylOj1opQmtNVkHS59bY3rTyE8ldBPfmYsHxwzFBsZbUVhQN28Xo44bQ2W
+jvg0QlWXnSzkPR4jTjdqACe7UFDlt///XFwStFdov2qfZL1kX2azR7mWzgHTyGKv
+mUfIRDba6XvdjRobt7WMUFjZzbOPDDMwr/uAjoPgk4ReA3azs3KZXVVHEgEHQHfz
+77u0pjmEvobSXg9tCCfoNjUqMbRyYHRaXMjXcwJrMPFfPK5EMX8eB0ngdfFoJs/Y
+yCoMe/ABwM8ma94QhKRJ9y+GyDEuXIXhGRxUa3hZsNJ8AYkUSUQzasUr0B6fghLC
+Ai+s8xgbfUCIK7snsfr5TexqG/UA4czLPNfsgjGMNSf1FTrP0a8TtC7XP9VG0wZB
+g0+1MMEJwIVK57XZk21vzOSUBMJpr+RRlCEoZOgcMJ0qyfjY1c9LaBlbxw1qVbI/
+aJ++A7rffPcT6FYFLw==
+=NHTU
+-----END PGP MESSAGE-----
+gpg: Note: '-----BEGIN' is not considered an option
+gpg: WARNING: no command supplied.  Trying to guess what you mean ...
+usage: gpg [options] [filename]
+bash: hQEMA/jr3s26ljHKAQf6A5nXjQpgorqNEj/R2M3zP49hXR787s799hvFAvkzrCNK: No such file or directory
+bash: q19yhNp3t97ObCI6sWF6X9gb5RAI/Dxjzcp2Q4WKgXRKiR0IKWVRIsagx1wpVR/Q: No such file or directory
+82T9IhPMxD5FZfM2TjwTgP+FEEXfEX0dzD2ogKWpYjmOZICukQmm3TdyWowyK9eR: command not found
+3hdKfOlylOj1opQmtNVkHS59bY3rTyE8ldBPfmYsHxwzFBsZbUVhQN28Xo44bQ2W: command not found
+bash: jvg0QlWXnSzkPR4jTjdqACe7UFDlt///XFwStFdov2qfZL1kX2azR7mWzgHTyGKv: No such file or directory
+bash: mUfIRDba6XvdjRobt7WMUFjZzbOPDDMwr/uAjoPgk4ReA3azs3KZXVVHEgEHQHfz: No such file or directory
+bash: 77u0pjmEvobSXg9tCCfoNjUqMbRyYHRaXMjXcwJrMPFfPK5EMX8eB0ngdfFoJs/Y: No such file or directory
+bash: yCoMe/ABwM8ma94QhKRJ9y+GyDEuXIXhGRxUa3hZsNJ8AYkUSUQzasUr0B6fghLC: No such file or directory
+bash: Ai+s8xgbfUCIK7snsfr5TexqG/UA4czLPNfsgjGMNSf1FTrP0a8TtC7XP9VG0wZB: No such file or directory
+bash: g0+1MMEJwIVK57XZk21vzOSUBMJpr+RRlCEoZOgcMJ0qyfjY1c9LaBlbxw1qVbI/: No such file or directory
+aJ++A7rffPcT6FYFLw==: command not found
+=NHTU: command not found
+-----END: command not found
+
