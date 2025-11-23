@@ -1,0 +1,20 @@
+build/nanos2/obj/sdk/src/retrocompatibility_endorsement.o: \
+  /opt/nanosplus-secure-sdk/src/retrocompatibility_endorsement.c \
+  /opt/nanosplus-secure-sdk/include/exceptions.h \
+  /opt/nanosplus-secure-sdk/include/appflags.h \
+  /opt/nanosplus-secure-sdk/target/nanos2/include/bolos_target.h \
+  /opt/nanosplus-secure-sdk/include/decorators.h \
+  /opt/nanosplus-secure-sdk/include/errors.h \
+  /opt/nanosplus-secure-sdk/include/status_words.h \
+  /opt/nanosplus-secure-sdk/include/os_types.h \
+  /opt/nanosplus-secure-sdk/include/os_endorsement.h \
+  /opt/nanosplus-secure-sdk/lib_cxng/include/lcx_sha256.h \
+  /opt/nanosplus-secure-sdk/lib_cxng/include/lcx_wrappers.h \
+  /opt/nanosplus-secure-sdk/include/os_helpers.h \
+  /opt/nanosplus-secure-sdk/lib_cxng/include/lcx_hash.h \
+  /opt/nanosplus-secure-sdk/include/cx_errors.h \
+  /opt/nanosplus-secure-sdk/include/ledger_assert.h \
+  /opt/nanosplus-secure-sdk/include/ledger_assert_internals.h \
+  /opt/nanosplus-secure-sdk/include/os_print.h \
+  /opt/nanosplus-secure-sdk/include/app_config.h \
+  /opt/nanosplus-secure-sdk/lib_cxng/include/lcx_common.h

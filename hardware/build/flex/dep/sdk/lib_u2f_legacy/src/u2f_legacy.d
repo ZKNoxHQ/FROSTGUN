@@ -1,0 +1,34 @@
+build/flex/obj/sdk/lib_u2f_legacy/src/u2f_legacy.o: \
+  /opt/flex-secure-sdk/lib_u2f_legacy/src/u2f_legacy.c \
+  /opt/flex-secure-sdk/lib_u2f_legacy/include/u2f_impl.h \
+  /opt/flex-secure-sdk/lib_u2f_legacy/include/u2f_processing.h \
+  /opt/flex-secure-sdk/lib_u2f_legacy/include/u2f_service.h \
+  /opt/flex-secure-sdk/lib_u2f/include/u2f_types.h \
+  /opt/flex-secure-sdk/io/include/os_io.h \
+  /opt/flex-secure-sdk/include/os_math.h \
+  /opt/flex-secure-sdk/include/decorators.h \
+  /opt/flex-secure-sdk/lib_u2f/include/u2f_transport.h \
+  /opt/flex-secure-sdk/io_legacy/include/os_io_legacy.h \
+  /opt/flex-secure-sdk/io_legacy/include/os_io_legacy_types.h \
+  /opt/flex-secure-sdk/io/include/os_io_seph_cmd.h \
+  /opt/flex-secure-sdk/include/seproxyhal_protocol.h \
+  /opt/flex-secure-sdk/include/os_utils.h \
+  /opt/flex-secure-sdk/include/arch.h \
+  /opt/flex-secure-sdk/target/flex/include/bolos_target.h \
+  /opt/flex-secure-sdk/include/ux.h \
+  /opt/flex-secure-sdk/lib_ux_nbgl/ux_nbgl.h \
+  /opt/flex-secure-sdk/include/os_ux.h \
+  /opt/flex-secure-sdk/include/os_app.h \
+  /opt/flex-secure-sdk/include/os_types.h \
+  /opt/flex-secure-sdk/include/os_ux_id.h \
+  /opt/flex-secure-sdk/include/os_task.h \
+  /opt/flex-secure-sdk/include/appflags.h \
+  /opt/flex-secure-sdk/lib_nbgl/include/nbgl_screen.h \
+  /opt/flex-secure-sdk/lib_nbgl/include/nbgl_types.h \
+  /opt/flex-secure-sdk/include/app_config.h \
+  /opt/flex-secure-sdk/lib_nbgl/include/nbgl_obj.h \
+  /opt/flex-secure-sdk/lib_nbgl/include/nbgl_fonts.h \
+  /opt/flex-secure-sdk/lib_nbgl/serialization/ux_loc.h \
+  /opt/flex-secure-sdk/lib_nbgl/include/nbgl_touch.h \
+  build/flex/gen_src/glyphs.h \
+  /opt/flex-secure-sdk/io/include/os_io_seph_ux.h

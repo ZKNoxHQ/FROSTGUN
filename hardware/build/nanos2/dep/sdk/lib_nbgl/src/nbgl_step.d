@@ -1,0 +1,31 @@
+build/nanos2/obj/sdk/lib_nbgl/src/nbgl_step.o: \
+  /opt/nanosplus-secure-sdk/lib_nbgl/src/nbgl_step.c \
+  /opt/nanosplus-secure-sdk/lib_nbgl/include/nbgl_debug.h \
+  /opt/nanosplus-secure-sdk/lib_nbgl/include/nbgl_step.h \
+  /opt/nanosplus-secure-sdk/lib_nbgl/include/nbgl_layout.h \
+  /opt/nanosplus-secure-sdk/lib_nbgl/include/nbgl_obj.h \
+  /opt/nanosplus-secure-sdk/lib_nbgl/include/nbgl_types.h \
+  /opt/nanosplus-secure-sdk/include/app_config.h \
+  /opt/nanosplus-secure-sdk/target/nanos2/include/bolos_target.h \
+  /opt/nanosplus-secure-sdk/lib_nbgl/include/nbgl_fonts.h \
+  /opt/nanosplus-secure-sdk/lib_nbgl/serialization/ux_loc.h \
+  /opt/nanosplus-secure-sdk/lib_nbgl/include/nbgl_screen.h \
+  /opt/nanosplus-secure-sdk/lib_nbgl/include/nbgl_content.h \
+  /opt/nanosplus-secure-sdk/io/include/os_io_seph_cmd.h \
+  /opt/nanosplus-secure-sdk/include/seproxyhal_protocol.h \
+  /opt/nanosplus-secure-sdk/include/os_utils.h \
+  /opt/nanosplus-secure-sdk/include/arch.h \
+  /opt/nanosplus-secure-sdk/include/decorators.h \
+  /opt/nanosplus-secure-sdk/include/ux.h \
+  /opt/nanosplus-secure-sdk/lib_ux_nbgl/ux_nbgl.h \
+  /opt/nanosplus-secure-sdk/include/os_math.h \
+  /opt/nanosplus-secure-sdk/include/os_ux.h \
+  /opt/nanosplus-secure-sdk/include/os_app.h \
+  /opt/nanosplus-secure-sdk/include/os_types.h \
+  /opt/nanosplus-secure-sdk/include/os_ux_id.h \
+  /opt/nanosplus-secure-sdk/include/os_task.h \
+  /opt/nanosplus-secure-sdk/include/appflags.h \
+  /opt/nanosplus-secure-sdk/lib_nbgl/include/nbgl_touch.h \
+  build/nanos2/gen_src/glyphs.h \
+  /opt/nanosplus-secure-sdk/include/os_pic.h \
+  /opt/nanosplus-secure-sdk/include/os_print.h

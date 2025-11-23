@@ -1,0 +1,20 @@
+build/flex/obj/sdk/src/retrocompatibility_endorsement.o: \
+  /opt/flex-secure-sdk/src/retrocompatibility_endorsement.c \
+  /opt/flex-secure-sdk/include/exceptions.h \
+  /opt/flex-secure-sdk/include/appflags.h \
+  /opt/flex-secure-sdk/target/flex/include/bolos_target.h \
+  /opt/flex-secure-sdk/include/decorators.h \
+  /opt/flex-secure-sdk/include/errors.h \
+  /opt/flex-secure-sdk/include/status_words.h \
+  /opt/flex-secure-sdk/include/os_types.h \
+  /opt/flex-secure-sdk/include/os_endorsement.h \
+  /opt/flex-secure-sdk/lib_cxng/include/lcx_sha256.h \
+  /opt/flex-secure-sdk/lib_cxng/include/lcx_wrappers.h \
+  /opt/flex-secure-sdk/include/os_helpers.h \
+  /opt/flex-secure-sdk/lib_cxng/include/lcx_hash.h \
+  /opt/flex-secure-sdk/include/cx_errors.h \
+  /opt/flex-secure-sdk/include/ledger_assert.h \
+  /opt/flex-secure-sdk/include/ledger_assert_internals.h \
+  /opt/flex-secure-sdk/include/os_print.h \
+  /opt/flex-secure-sdk/include/app_config.h \
+  /opt/flex-secure-sdk/lib_cxng/include/lcx_common.h
