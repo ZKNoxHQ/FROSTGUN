@@ -2,7 +2,7 @@
        0        0        0     1 PAGE_SIZE = 512
        0        0        0     1 STACK_MIN_SIZE = DEFINED ( stack_min_size ) ? stack_min_size : 1500
        0        0        0     1 END_STACK = ORIGIN ( SRAM ) + LENGTH ( SRAM )
-c0de0000 c0de0000     903f     8 .text
+c0de0000 c0de0000     9040     8 .text
 c0de0000 c0de0000        0     1         _text = .
 c0de0000 c0de0000        0     1         _nvram_start = .
 c0de0000 c0de0000       14     2         build/nanos2/obj/sdk/lib_standard_app/main.o:(.boot)
@@ -1376,7 +1376,7 @@ c0de79f6 c0de79f6       19     1         build/nanos2/gen_src/glyphs.o:(.rodata.
 c0de79f6 c0de79f6       19     1                 C_app_boilerplate_14px_bitmap
 c0de7a0f c0de7a0f        a     1         build/nanos2/gen_src/glyphs.o:(.rodata.C_app_boilerplate_14px)
 c0de7a0f c0de7a0f        a     1                 C_app_boilerplate_14px
-c0de7a19 c0de7a19      345     1         <internal>:(.text)
+c0de7a19 c0de7a19      346     1         <internal>:(.text)
 c0de7d60 c0de7d60      320     8         <internal>:(.text)
 c0de8080 c0de8080       a0     4         build/nanos2/obj/app/src/handler/zkn_magicbox.o:(.rodata..L__const.handler_cmd_Poseidon.input)
 c0de8080 c0de8080       a0     1                 .L__const.handler_cmd_Poseidon.input
@@ -1418,10 +1418,10 @@ c0de8e00 c0de8e00        3     1                 N_storage_real
 c0de8e03 c0de8e03      1fd     1         . = ALIGN ( PAGE_SIZE )
 c0de9000 c0de9000        0     1         _envram_data = .
 c0de9000 c0de9000        0     1         _install_parameters = .
-c0de9000 c0de9000       3f     1         build/nanos2/obj/sdk/src/app_metadata.o:(.install_parameters)
-c0de9000 c0de9000       3f     1                 install_parameters
-c0de903f c0de903f        0     1         _einstall_parameters = .
-c0de903f c0de903f        0     1         _nvram_end = .
+c0de9000 c0de9000       40     1         build/nanos2/obj/sdk/src/app_metadata.o:(.install_parameters)
+c0de9000 c0de9000       40     1                 install_parameters
+c0de9040 c0de9040        0     1         _einstall_parameters = .
+c0de9040 c0de9040        0     1         _nvram_end = .
 d0000000 d0000000        0     1 .data
 d0000000 d0000000        0     1         . = ALIGN ( 4 )
 d0000000 d0000000        0     1         _data = .
@@ -1500,9 +1500,9 @@ d0000000 d0000000       10     4         <internal>:(.ARM.exidx)
        0        0        a     1 ledger.target_id
        0        0        a     1         build/nanos2/obj/sdk/src/app_metadata.o:(ledger.target_id)
        0        0        a     1                 target_id
-       0        0        7     1 ledger.app_name
-       0        0        7     1         build/nanos2/obj/sdk/src/app_metadata.o:(ledger.app_name)
-       0        0        7     1                 app_name
+       0        0        8     1 ledger.app_name
+       0        0        8     1         build/nanos2/obj/sdk/src/app_metadata.o:(ledger.app_name)
+       0        0        8     1                 app_name
        0        0        5     1 ledger.app_version
        0        0        5     1         build/nanos2/obj/sdk/src/app_metadata.o:(ledger.app_version)
        0        0        5     1                 app_version

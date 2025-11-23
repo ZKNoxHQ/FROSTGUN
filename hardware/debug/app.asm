@@ -426,14 +426,14 @@ c0de043e:	f006 ffab 	bl	c0de7398 <pic>
 c0de0442:	2100      	movs	r1, #0
 c0de0444:	f44f 4210 	mov.w	r2, #36864	@ 0x9000
 c0de0448:	9103      	str	r1, [sp, #12]
-c0de044a:	2107      	movs	r1, #7
+c0de044a:	2108      	movs	r1, #8
 c0de044c:	e9cd 0101 	strd	r0, r1, [sp, #4]
 c0de0450:	a801      	add	r0, sp, #4
 c0de0452:	2101      	movs	r1, #1
 c0de0454:	f006 fbca 	bl	c0de6bec <io_send_response_buffers>
 c0de0458:	b004      	add	sp, #16
 c0de045a:	bd80      	pop	{r7, pc}
-c0de045c:	0000789a 	.word	0x0000789a
+c0de045c:	000077e6 	.word	0x000077e6
 
 c0de0460 <handler_get_public_key>:
 c0de0460:	b5f0      	push	{r4, r5, r6, r7, lr}
@@ -2730,13 +2730,13 @@ c0de1aee:	bdbf      	pop	{r0, r1, r2, r3, r4, r5, r7, pc}
 c0de1af0:	00000590 	.word	0x00000590
 c0de1af4:	0000736a 	.word	0x0000736a
 c0de1af8:	00006080 	.word	0x00006080
-c0de1afc:	000061de 	.word	0x000061de
+c0de1afc:	000061e7 	.word	0x000061e7
 c0de1b00:	000060e3 	.word	0x000060e3
 c0de1b04:	00005f57 	.word	0x00005f57
 c0de1b08:	ffffffb1 	.word	0xffffffb1
 c0de1b0c:	00006c96 	.word	0x00006c96
 c0de1b10:	00006c88 	.word	0x00006c88
-c0de1b14:	000061f0 	.word	0x000061f0
+c0de1b14:	0000613c 	.word	0x0000613c
 c0de1b18:	00005da9 	.word	0x00005da9
 
 c0de1b1c <controls_callback>:
@@ -2803,7 +2803,7 @@ c0de1bbc:	0000603b 	.word	0x0000603b
 c0de1bc0:	00005e50 	.word	0x00005e50
 c0de1bc4:	00005e7b 	.word	0x00005e7b
 c0de1bc8:	00005f11 	.word	0x00005f11
-c0de1bcc:	000060ee 	.word	0x000060ee
+c0de1bcc:	000060f7 	.word	0x000060f7
 
 c0de1bd0 <review_warning_choice>:
 c0de1bd0:	b5b0      	push	{r4, r5, r7, lr}
@@ -2848,7 +2848,7 @@ c0de1c34:	00007222 	.word	0x00007222
 c0de1c38:	fffffe71 	.word	0xfffffe71
 c0de1c3c:	00006b56 	.word	0x00006b56
 c0de1c40:	00006b48 	.word	0x00006b48
-c0de1c44:	000060b2 	.word	0x000060b2
+c0de1c44:	00005ffe 	.word	0x00005ffe
 c0de1c48:	00005c6b 	.word	0x00005c6b
 
 c0de1c4c <OUTLINED_FUNCTION_0>:
@@ -2914,7 +2914,7 @@ c0de1ce4:	00000000 	.word	0x00000000
 c0de1ce8:	000005ac 	.word	0x000005ac
 c0de1cec:	0000005d 	.word	0x0000005d
 c0de1cf0:	00005d55 	.word	0x00005d55
-c0de1cf4:	0000604c 	.word	0x0000604c
+c0de1cf4:	0000604d 	.word	0x0000604d
 
 c0de1cf8 <io_send_sw>:
 c0de1cf8:	b580      	push	{r7, lr}
@@ -3012,12 +3012,12 @@ c0de1de0:	b005      	add	sp, #20
 c0de1de2:	bdf0      	pop	{r4, r5, r6, r7, pc}
 c0de1de4:	00000000 	.word	0x00000000
 c0de1de8:	000005d8 	.word	0x000005d8
-c0de1dec:	00005f30 	.word	0x00005f30
+c0de1dec:	00005f39 	.word	0x00005f39
 c0de1df0:	00000085 	.word	0x00000085
 c0de1df4:	00005c69 	.word	0x00005c69
-c0de1df8:	00005f73 	.word	0x00005f73
+c0de1df8:	00005f74 	.word	0x00005f74
 c0de1dfc:	00005c35 	.word	0x00005c35
-c0de1e00:	00005f3f 	.word	0x00005f3f
+c0de1e00:	00005f40 	.word	0x00005f40
 
 c0de1e04 <io_send_sw>:
 c0de1e04:	b580      	push	{r7, lr}
@@ -8397,7 +8397,7 @@ c0de5234:	f884 005d 	strb.w	r0, [r4, #93]	@ 0x5d
 c0de5238:	b00b      	add	sp, #44	@ 0x2c
 c0de523a:	bdf0      	pop	{r4, r5, r6, r7, pc}
 c0de523c:	00000988 	.word	0x00000988
-c0de5240:	00002b58 	.word	0x00002b58
+c0de5240:	00002b61 	.word	0x00002b61
 c0de5244:	0000284f 	.word	0x0000284f
 c0de5248:	000026a0 	.word	0x000026a0
 c0de524c:	00001145 	.word	0x00001145
@@ -8650,9 +8650,9 @@ c0de54ae:	bf00      	nop
 c0de54b0:	00002594 	.word	0x00002594
 c0de54b4:	000025e8 	.word	0x000025e8
 c0de54b8:	00002670 	.word	0x00002670
-c0de54bc:	00002833 	.word	0x00002833
+c0de54bc:	0000283c 	.word	0x0000283c
 c0de54c0:	000026cf 	.word	0x000026cf
-c0de54c4:	000027cb 	.word	0x000027cb
+c0de54c4:	000027d4 	.word	0x000027d4
 c0de54c8:	000025f4 	.word	0x000025f4
 c0de54cc:	0000272e 	.word	0x0000272e
 
@@ -9129,7 +9129,7 @@ c0de593e:	b00a      	add	sp, #40	@ 0x28
 c0de5940:	bd70      	pop	{r4, r5, r6, pc}
 c0de5942:	bf00      	nop
 c0de5944:	00000988 	.word	0x00000988
-c0de5948:	00002379 	.word	0x00002379
+c0de5948:	00002382 	.word	0x00002382
 c0de594c:	0000205a 	.word	0x0000205a
 c0de5950:	00002016 	.word	0x00002016
 c0de5954:	000001b9 	.word	0x000001b9
@@ -9522,7 +9522,7 @@ c0de5d10:	bdb0      	pop	{r4, r5, r7, pc}
 c0de5d12:	bf00      	nop
 c0de5d14:	00000988 	.word	0x00000988
 c0de5d18:	fffff149 	.word	0xfffff149
-c0de5d1c:	00001f8f 	.word	0x00001f8f
+c0de5d1c:	00001f98 	.word	0x00001f98
 c0de5d20:	00001c38 	.word	0x00001c38
 c0de5d24:	0000002b 	.word	0x0000002b
 c0de5d28:	00000069 	.word	0x00000069
@@ -9753,15 +9753,15 @@ c0de5f34:	f7ff f9b0 	bl	c0de5298 <drawStep>
 c0de5f38:	e8bd 41ff 	ldmia.w	sp!, {r0, r1, r2, r3, r4, r5, r6, r7, r8, lr}
 c0de5f3c:	f001 b829 	b.w	c0de6f92 <nbgl_refresh>
 c0de5f40:	00000988 	.word	0x00000988
-c0de5f44:	00001e2a 	.word	0x00001e2a
+c0de5f44:	00001e2b 	.word	0x00001e2b
 c0de5f48:	0000008d 	.word	0x0000008d
 c0de5f4c:	00001a65 	.word	0x00001a65
 c0de5f50:	00001d0e 	.word	0x00001d0e
 c0de5f54:	00000073 	.word	0x00000073
 c0de5f58:	000019ae 	.word	0x000019ae
-c0de5f5c:	00001db6 	.word	0x00001db6
+c0de5f5c:	00001dbf 	.word	0x00001dbf
 c0de5f60:	000019b7 	.word	0x000019b7
-c0de5f64:	00001e27 	.word	0x00001e27
+c0de5f64:	00001e28 	.word	0x00001e28
 c0de5f68:	0000006b 	.word	0x0000006b
 
 c0de5f6c <startUseCaseSettings>:
@@ -9840,7 +9840,7 @@ c0de6014:	00000988 	.word	0x00000988
 c0de6018:	000013cb 	.word	0x000013cb
 c0de601c:	ffffee3b 	.word	0xffffee3b
 c0de6020:	00001934 	.word	0x00001934
-c0de6024:	00001c83 	.word	0x00001c83
+c0de6024:	00001c8c 	.word	0x00001c8c
 c0de6028:	00000029 	.word	0x00000029
 
 c0de602c <infoCallback>:
@@ -9958,7 +9958,7 @@ c0de6138:	bd10      	pop	{r4, pc}
 c0de613a:	bf00      	nop
 c0de613c:	00000988 	.word	0x00000988
 c0de6140:	00001a2f 	.word	0x00001a2f
-c0de6144:	00001b5c 	.word	0x00001b5c
+c0de6144:	00001b65 	.word	0x00001b65
 c0de6148:	0000191c 	.word	0x0000191c
 c0de614c:	00000025 	.word	0x00000025
 c0de6150:	000000d9 	.word	0x000000d9
@@ -10119,7 +10119,7 @@ c0de62aa:	bf00      	nop
 c0de62ac:	00000988 	.word	0x00000988
 c0de62b0:	000017e1 	.word	0x000017e1
 c0de62b4:	00000143 	.word	0x00000143
-c0de62b8:	00001b56 	.word	0x00001b56
+c0de62b8:	00001b57 	.word	0x00001b57
 c0de62bc:	00000115 	.word	0x00000115
 c0de62c0:	00001906 	.word	0x00001906
 c0de62c4:	000019a7 	.word	0x000019a7
@@ -10127,8 +10127,8 @@ c0de62c8:	000000db 	.word	0x000000db
 c0de62cc:	000018c2 	.word	0x000018c2
 c0de62d0:	00001900 	.word	0x00001900
 c0de62d4:	000000b3 	.word	0x000000b3
-c0de62d8:	00001a33 	.word	0x00001a33
-c0de62dc:	000019a0 	.word	0x000019a0
+c0de62d8:	00001a3c 	.word	0x00001a3c
+c0de62dc:	000019a9 	.word	0x000019a9
 c0de62e0:	0000009f 	.word	0x0000009f
 c0de62e4:	0000176a 	.word	0x0000176a
 c0de62e8:	00000139 	.word	0x00000139
@@ -10136,9 +10136,9 @@ c0de62ec:	000019ab 	.word	0x000019ab
 c0de62f0:	000000e7 	.word	0x000000e7
 c0de62f4:	00001903 	.word	0x00001903
 c0de62f8:	00000113 	.word	0x00000113
-c0de62fc:	00001a9e 	.word	0x00001a9e
+c0de62fc:	00001a9f 	.word	0x00001a9f
 c0de6300:	000000dd 	.word	0x000000dd
-c0de6304:	00001a77 	.word	0x00001a77
+c0de6304:	00001a78 	.word	0x00001a78
 
 c0de6308 <launchReviewAfterWarning>:
 c0de6308:	b57f      	push	{r0, r1, r2, r3, r4, r5, r6, lr}
@@ -10404,7 +10404,7 @@ c0de6592:	b008      	add	sp, #32
 c0de6594:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
 c0de6598:	00000988 	.word	0x00000988
 c0de659c:	00000027 	.word	0x00000027
-c0de65a0:	00001767 	.word	0x00001767
+c0de65a0:	00001770 	.word	0x00001770
 c0de65a4:	0000140a 	.word	0x0000140a
 c0de65a8:	00000085 	.word	0x00000085
 
@@ -10501,7 +10501,7 @@ c0de6686:	b010      	add	sp, #64	@ 0x40
 c0de6688:	bdb0      	pop	{r4, r5, r7, pc}
 c0de668a:	bf00      	nop
 c0de668c:	00000988 	.word	0x00000988
-c0de6690:	000015f3 	.word	0x000015f3
+c0de6690:	000015fc 	.word	0x000015fc
 
 c0de6694 <onChoiceSelected>:
 c0de6694:	b570      	push	{r4, r5, r6, lr}
@@ -11072,7 +11072,7 @@ c0de6b70:	5550      	strb	r0, [r2, r5]
 c0de6b72:	4660      	mov	r0, ip
 c0de6b74:	bdf0      	pop	{r4, r5, r6, r7, pc}
 c0de6b76:	bf00      	nop
-c0de6b78:	00001122 	.word	0x00001122
+c0de6b78:	0000112b 	.word	0x0000112b
 
 c0de6b7c <app_ticker_event_callback>:
 c0de6b7c:	4770      	bx	lr
@@ -12007,7 +12007,7 @@ c0de73be:	4408      	add	r0, r1
 c0de73c0:	4770      	bx	lr
 c0de73c2:	0000      	movs	r0, r0
 c0de73c4:	c0de0000 	.word	0xc0de0000
-c0de73c8:	c0de903f 	.word	0xc0de903f
+c0de73c8:	c0de9040 	.word	0xc0de9040
 c0de73cc:	da7a0000 	.word	0xda7a0000
 c0de73d0:	da7aa000 	.word	0xda7aa000
 
@@ -12728,26 +12728,26 @@ c0de7bdf:	7461 6f69 206e 6163 636e 6c65 656c 0064     ation cancelled.
 c0de7bef:	6944 6173 6c62 6465 4100 7070 7320 7465     Disabled.App set
 c0de7bff:	6974 676e 0073 6341 6563 7470 7220 7369     tings.Accept ris
 c0de7c0f:	206b 6e61 2064 6973 6e67 7420 6172 736e     k and sign trans
-c0de7c1f:	6361 6974 6e6f 4200 696c 646e 7320 6769     action.Blind sig
-c0de7c2f:	696e 676e 6120 6568 6461 4100 6363 7065     ning ahead.Accep
-c0de7c3f:	2074 6972 6b73 6120 646e 7320 6769 206e     t risk and sign 
-c0de7c4f:	706f 7265 7461 6f69 006e 654d 7373 6761     operation.Messag
-c0de7c5f:	2065 6572 656a 7463 6465 3000 3231 3433     e rejected.01234
-c0de7c6f:	3635 3837 4139 4342 4544 0046 6142 6b63     56789ABCDEF.Back
-c0de7c7f:	4100 6464 6572 7373 4400 6d75 796d 3120     .Address.Dummy 1
-c0de7c8f:	4900 7520 646e 7265 7473 6e61 2c64 6320     .I understand, c
-c0de7c9f:	6e6f 6966 6d72 5400 4878 7361 0068 7254     onfirm.TxHash.Tr
-c0de7caf:	6e61 6173 7463 6f69 206e 6572 656a 7463     ansaction reject
-c0de7cbf:	6465 4100 7070 6920 666e 006f 6953 6e67     ed.App info.Sign
-c0de7ccf:	6f20 6570 6172 6974 6e6f 4500 4444 4153      operation.EDDSA
-c0de7cdf:	4b5a 5200 6a65 6365 2074 656d 7373 6761     ZK.Reject messag
-c0de7cef:	0065 6552 656a 7463 6f20 6570 6172 6974     e.Reject operati
-c0de7cff:	6e6f 5a00 4e4b 584f 5600 7265 6669 2079     on.ZKNOX.Verify 
-c0de7d0f:	4f42 204c 6461 7264 7365 0073 6552 6976     BOL address.Revi
-c0de7d1f:	7765 7420 6172 736e 6361 6974 6e6f 740a     ew transaction.t
-c0de7d2f:	206f 7028 7261 6974 6c61 2029 6973 6e67     o (partial) sign
-c0de7d3f:	6100 7070 6920 2073 6572 6461 0079 7551     .app is ready.Qu
-c0de7d4f:	7469 6120 7070 4300 6e6f 6966 6d72 0000     it app.Confirm..
+c0de7c1f:	6361 6974 6e6f 4600 4f52 5453 5547 004e     action.FROSTGUN.
+c0de7c2f:	6c42 6e69 2064 6973 6e67 6e69 2067 6861     Blind signing ah
+c0de7c3f:	6165 0064 6341 6563 7470 7220 7369 206b     ead.Accept risk 
+c0de7c4f:	6e61 2064 6973 6e67 6f20 6570 6172 6974     and sign operati
+c0de7c5f:	6e6f 4d00 7365 6173 6567 7220 6a65 6365     on.Message rejec
+c0de7c6f:	6574 0064 3130 3332 3534 3736 3938 4241     ted.0123456789AB
+c0de7c7f:	4443 4645 4200 6361 006b 6441 7264 7365     CDEF.Back.Addres
+c0de7c8f:	0073 7544 6d6d 2079 0031 2049 6e75 6564     s.Dummy 1.I unde
+c0de7c9f:	7372 6174 646e 202c 6f63 666e 7269 006d     rstand, confirm.
+c0de7caf:	7854 6148 6873 5400 6172 736e 6361 6974     TxHash.Transacti
+c0de7cbf:	6e6f 7220 6a65 6365 6574 0064 7041 2070     on rejected.App 
+c0de7ccf:	6e69 6f66 5300 6769 206e 706f 7265 7461     info.Sign operat
+c0de7cdf:	6f69 006e 6552 656a 7463 6d20 7365 6173     ion.Reject messa
+c0de7cef:	6567 5200 6a65 6365 2074 706f 7265 7461     ge.Reject operat
+c0de7cff:	6f69 006e 4b5a 4f4e 0058 6556 6972 7966     ion.ZKNOX.Verify
+c0de7d0f:	4220 4c4f 6120 6464 6572 7373 5200 7665      BOL address.Rev
+c0de7d1f:	6569 2077 7274 6e61 6173 7463 6f69 0a6e     iew transaction.
+c0de7d2f:	6f74 2820 6170 7472 6169 296c 7320 6769     to (partial) sig
+c0de7d3f:	006e 7061 2070 7369 7220 6165 7964 5100     n.app is ready.Q
+c0de7d4f:	6975 2074 7061 0070 6f43 666e 7269 006d     uit app.Confirm.
 c0de7d5f:	0100 c465 5fd5 1744 68b3 5ae9 0054 301a     ..e.._D..h.ZT..0
 c0de7d6f:	3c32 4fb0 34e8 5a3e 84d4 2345 a563 d098     2<.O.4>Z..E#c...
 c0de7d7f:	7359 a7ed 2953 7d9d 3348 d839 0908 d8a1     Ys..S).}H39.....
@@ -12937,7 +12937,7 @@ c0de87b4 <INFO_TYPES>:
 c0de87b4:	7bc1 c0de 7b16 c0de                         .{...{..
 
 c0de87bc <INFO_CONTENTS>:
-c0de87bc:	7a48 c0de 7d02 c0de                         Hz...}..
+c0de87bc:	7a48 c0de 7d03 c0de                         Hz...}..
 
 c0de87c4 <.L__const.EddsaPoseidon_Sign_final.big_n>:
 	...
@@ -13039,7 +13039,7 @@ c0de8e00 <N_storage_real>:
 	...
 
 c0de9000 <install_parameters>:
-c0de9000:	0701 4445 5344 5a41 024b 3005 302e 312e     ..EDDSAZK..0.0.1
-c0de9010:	2103 000e 000e 1900 0000 0000 0300 08f0     .!..............
-c0de9020:	4e40 5281 8fa5 a090 8040 0384 00f0 0000     @N.R....@.......
-c0de9030:	0000 0400 010a 8002 0000 802c 2300           ..........,..#s
+c0de9000:	0801 5246 534f 4754 4e55 0502 2e30 2e30     ..FROSTGUN..0.0.
+c0de9010:	0331 0e21 0e00 0000 0019 0000 0000 f003     1.!.............
+c0de9020:	4008 814e a552 908f 40a0 8480 f003 0000     .@N.R....@......
+c0de9030:	0000 0000 0a04 0201 0080 2c00 0080 7323     ...........,..#s
