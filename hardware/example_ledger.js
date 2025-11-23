@@ -80,12 +80,11 @@ export const APDUS = {
 //uncomment the apdu you want to launch
 
 //IMPORTANT WARNING: this is used by eddsa_apdugencheck, comment it back or the automated generation will fail
-
-sendAPDU(APDUS.apdu_inject_frost)
-// sendAPDU(APDUS.apdu_frost_commit)
-// sendAPDU(APDUS.apdu_partialsig)
+// sendAPDU(APDUS.apdu_inject_frost)
+// // for debugging, we cheat and inject nonces, no commit for now ;-)
+// sendAPDU(APDUS.apdu_inject_nonces)
+// // sendAPDU(APDUS.apdu_frost_commit)
 // sendAPDU(APDUS.apdu_inject_com1)
 // sendAPDU(APDUS.apdu_inject_com2)
-// sendAPDU(APDUS.apdu_inject_nonces) // for debug?
-// sendAPDU(APDUS.apdu_partial_sign)
-
+sendAPDU(APDUS.apdu_partial_sign)
+// // expected signature: 0x52c3e9a5c257a449fa8e11d04aa2d887519b504868f72e6f1de29c33e21dbf4 
