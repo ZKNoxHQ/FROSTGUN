@@ -51,12 +51,11 @@ APDU are dscribed in /hardware/README.md current status of implementation is:
 |---------|------|------|-------------|--------|-------|
 | 0x19 | `0x19` | FROST_INJECT_KEYS | Inject group key, identifier, and secret key | ✅ Implemented | Tested and working |
 | 0x1A | `0x1A` | FROST_COMMIT | Generate nonces and return commitments | ✅ Implemented | Tested and working |
-| 0x1B | `0x1B` | FROST_INJECT_MESSAGE | Inject 32-byte message hash | ⏳ Pending | Not yet implemented |
-| 0x1C | `0x1C` | FROST_INJECT_COMMITMENTS_PART1 | Inject first 240 bytes of commitment list | ⏳ Pending | Not yet implemented |
-| 0x1D | `0x1D` | FROST_INJECT_COMMITMENTS_PART2 | Inject remaining commitment list bytes | ⏳ Pending | Not yet implemented |
-| 0x1E | `0x1E` | FROST_PARTIAL_SIGN | Compute partial signature | ⏳ Pending | static test ok |
-| 0x1F | `0x1F` | FROST_RESET | Clear all protocol state | ⏳ Pending | Not yet implemented |
-| 0x20 | `0x20` | FROST_GET_STATUS | Query protocol state machine | ⏳ Pending | Not yet implemented |
+| 0x1B | `0x1B` | FROST_INJECT_COMMITMENTS_PART1 | Inject first 240 bytes of commitment list | ⏳ Pending | Not yet implemented |
+| 0x1C | `0x1C` | FROST_INJECT_COMMITMENTS_PART2 | Inject remaining commitment list bytes | ⏳ Pending | Not yet implemented |
+| 0x1D | `0x1D` | FROST_PARTIAL_SIGN | Compute partial signature | ⏳ Pending | static test ok |
+| 0x1E | `0x1E` | FROST_RESET | Clear all protocol state | ⏳ Pending | Not yet implemented |
+| 0x1F | `0x1F` | FROST_GET_STATUS | Query protocol state machine | ⏳ Pending | Not yet implemented |
 
 ### JavaScript/TypeScript Library (`/js`)
 - **Framework**: TypeScript with ES modules
