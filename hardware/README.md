@@ -67,7 +67,7 @@ CLA || 1A || 00 || 00 || 00
 
 **Example:**
 ```
-Request:  80 18 00 00 00
+Request:  E0 1A 00 00 00
 Response: [HidingCommitment 64B][BindingCommitment 64B] 9000
 ```
 
