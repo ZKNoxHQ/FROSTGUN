@@ -16,7 +16,7 @@ Injects the group public key, participant identifier, and secret key during trus
 
 **Syntax:**
 ```
-CLA || 17 || CurveID || 00 || 80 || CDATA
+CLA || 19 || CurveID || 00 || 80 || CDATA
 ```
 
 **Parameters:**
@@ -35,7 +35,7 @@ CLA || 17 || CurveID || 00 || 80 || CDATA
 
 **Example:**
 ```
-80 17 00 00 80 [GroupKey 64B][Identifier 32B][SecretKey 32B]
+E0 19 00 00 80 [GroupKey 64B][Identifier 32B][SecretKey 32B]
 ```
 
 **Notes:**
@@ -51,7 +51,7 @@ Generates two random nonces (hiding and binding) and computes their elliptic cur
 
 **Syntax:**
 ```
-CLA || 18 || 00 || 00 || 00
+CLA || 1A || 00 || 00 || 00
 ```
 
 **Parameters:**
@@ -84,7 +84,7 @@ Injects the 32-byte message hash to be signed. The message is stored in device m
 
 **Syntax:**
 ```
-CLA || 19 || 00 || 00 || 20 || CDATA
+CLA || 1B || 00 || 00 || 20 || CDATA
 ```
 
 **Parameters:**
@@ -116,7 +116,7 @@ Injects the first 240 bytes of the commitment list from all participants. Each p
 
 **Syntax:**
 ```
-CLA || 1A || NumParticipants || 00 || F0 || CDATA
+CLA || 1C || NumParticipants || 00 || F0 || CDATA
 ```
 
 **Parameters:**
@@ -151,7 +151,7 @@ Injects the remaining bytes of the commitment list. Must be called after command
 
 **Syntax:**
 ```
-CLA || 1B || 00 || 00 || Lc || CDATA
+CLA || 1D || 00 || 00 || Lc || CDATA
 ```
 
 **Parameters:**
@@ -182,7 +182,7 @@ Computes the partial signature share for this participant. Requires prior execut
 
 **Syntax:**
 ```
-CLA || 1D || 00 || 00 || 00
+CLA || 1E || 00 || 00 || 00
 ```
 
 **Parameters:**
