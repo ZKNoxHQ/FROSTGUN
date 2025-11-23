@@ -26,7 +26,7 @@ async function SignHash() {
         // E0 19 0000 length <groupkey> <identifier> <secret_share>
         //                      64B         32B            32B
         // It doesn't output anything.
-        apdus.push({ name: "apdu_inject", command: "E019000080AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0b8a9785cfeab4d367712d4e0faf97355e8c4ec61cb32df9a445d671e1503e5b" });
+        apdus.push({ name: "apdu_inject", command: "E0190000801e0762d6610a0b47f3b5e3f23f5f748fde5abb8843f33cf084c0dabd8dc813e60b82b739e78dda57e75ac680ef689df1158fe3eed8095c6d4bd1b2c7c166eefd000000000000000000000000000000000000000000000000000000000000000102881c6476eac0fc58c14b735c68c76ef3e59bc1ad40b3e45a4d5bf13657723e" });
         // This APDU computes the commitments
         // It outputs the two commitments: <x1><y1><x2><y2>
         //                                  32B 32B 32B 32B
