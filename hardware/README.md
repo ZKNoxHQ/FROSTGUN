@@ -134,7 +134,7 @@ CLA || 1C || NumParticipants || 00 || F0 || CDATA
 
 **Example (3 participants):**
 ```
-80 1A 03 00 F0 [First 240 bytes]
+E0 1C 03 00 F0 [First 240 bytes]
 Response: 00F0 9000
 ```
 
